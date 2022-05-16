@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        
+        function multiplesof3and5(n)   //n is the number here
+        {
+            var sum=0,i;                //initialising the values
+        for(i=1;i<=n;i++)
+        {
+            if(i%3===0 || i%5===0)      //taking the multiples of 3 and 5 only
+            {
+                sum+=i;
+            }
+        }
+        alert("Sum of the numbers:"+sum);   //3+6+9+10+12+15
+    }
+    multiplesof3and5(17);       //n=17 
+    </script>
+</body>
+</html>
